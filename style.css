@@ -1,0 +1,15 @@
+body {
+    background-image: url(Texture.jpg);
+    background-position-x: -160px;
+    color: #000000;
+
+}
+
+table, th, td {
+    border:5px solid rgb(78, 6, 6);
+    text-shadow: 1px 1px 1px;
+    color: #a8a8a8;
+    margin-left: 1px;
+    background-color: #000000;
+  }
+
