@@ -9,7 +9,87 @@ table, th, td {
     border:5px solid rgb(78, 6, 6);
     text-shadow: 1px 1px 1px;
     color: #a8a8a8;
-    margin-left: 1px;
+    margin-left: 160px;
     background-color: #000000;
   }
 
+  .sidenav {
+    /* Other pages not made yet*/
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #5e0d0d;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: underline;
+    font-size: 25px;
+    color: #c95252;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 160px;
+    /* Same as the width of the sidenav */
+    padding: 0px 10px;
+}
+
+ .slideshow-container {
+      max-width: 600px;
+      position: relative;
+      margin-left: 710px;
+      /* manually spaced to center */
+    }
+
+    .slides {
+      display: none;
+      width: 100%;
+    }
+
+    .active {
+      display: block;
+    }
+
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      background-color: rgba(0,0,0,0.5);
+      user-select: none;
+      transform: translateY(-50%);
+    }
+
+    .prev { left: 0; }
+    .next { right: 0; }
+
+footer {
+    font-style: oblique;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: 160px;
+    color: #ffffff;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: .2px;
+}
