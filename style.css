@@ -93,3 +93,10 @@ footer {
     -webkit-text-stroke-color: #000000;
     -webkit-text-stroke-width: .2px;
 }
+
+.List {
+font-size: 24px;
+  margin-left: 160px;
+  color: #970202;
+  background-color: #000000;
+}
