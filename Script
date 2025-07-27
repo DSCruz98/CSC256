@@ -1,3 +1,5 @@
+// OLD
+
 let slideIndex = 0;
 const slides = document.getElementsByClassName("slides");
 
