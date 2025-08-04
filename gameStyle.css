@@ -1,0 +1,26 @@
+body {
+    background-color: #ad3f3f;
+}
+
+/* hides output until user clicks create character */
+#divOutput {
+    display: none;
+}
+
+form {
+    max-height: 400px;
+    max-width: 200px;
+    border: 2px solid #000000;
+    padding: 10px;
+}
+
+div {
+max-height: 400px;
+    max-width: 200px;
+    border: 2px solid #000000;
+    padding: 10px;
+}
+
+label, input {
+    display: block;
+}

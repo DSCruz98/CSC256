@@ -1,0 +1,74 @@
+<!-- Drake Cruz 8/03/25 -->
+<!DOCTYPE html>
+<!-- links to stylesheet and javascript pages -->
+<link rel="stylesheet" href="gameStyle.css" />
+<script src="gameScript.js"></script>
+<!-- page language -->
+<html lang="en">
+  <!-- Head gives search engine info -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create a Character</title>
+  </head>
+
+  <!-- body contains content for user -->
+  <body>
+    <!-- Title for page -->
+    <header>
+      <h1>Character Creation</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Enter your character's info:</h2>
+        <!-- Users can enter their character's info on the cooresponding line -->
+        <form
+          name="characterInfo"
+          id="characterInfo"
+          method="post"
+          action="#"
+          onsubmit="return currentCharacter();"
+        >
+          <!-- Labels -->
+          <label for="characterName">Character Name:</label>
+          <input
+            type="text"
+            id="characterName"
+            name="characterName"
+            placeholder="Grognak"
+          />
+          <label for="characterClass">Character Class:</label>
+          <input
+            type="text"
+            id="characterClass"
+            name="characterClass"
+            placeholder="Barbarian"
+          />
+          <label for="characterHealth">Health Points:</label>
+          <input
+            type="number"
+            id="characterHealth"
+            name="characterHealth"
+            placeholder="150"
+          />
+          <label for="characterMana">Mana Points:</label>
+          <input
+            type="number"
+            id="characterMana"
+            name="characterMana"
+            placeholder="0"
+          />
+          <input type="submit" value="Create Character" />
+        </form>
+
+        <br />
+
+        <div id="divOutput">
+          <h2>Character Info</h2>
+          <div id="divCharacterInfo"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
