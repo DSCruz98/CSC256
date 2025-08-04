@@ -16,7 +16,7 @@ function currentCharacter() {
     "Class: " +
     characterClass.value +
     "<br>" +
-    "Health" +
+    "Health: " +
     characterHealth.value +
     "<br>" +
     "Mana: " +
