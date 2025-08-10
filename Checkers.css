@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+}
+
+#divCheckerBoard {
+width: 416px;
+height: 416px;
+border: 2px solid black;
+}
+
+/* all sqaures */
+.checkerSquare {
+    float: left;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: rgb(95, 0, 0);
+}
+
+.checkerSquareAlt {
+    float: left;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: rgb(68, 0, 95);
+}
+
+.checkerPiece {
+    width: 45px;
+    height: 45px;
+    margin: 2px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px black;
+}
+
+.checkerPlayer-A {
+    background-color: aqua;
+}
+
+.checkerPlayer-B {
+    background-color: chartreuse;
+}
+
+#spanSecret {
+    display: block;
+}
