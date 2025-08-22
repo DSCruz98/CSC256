@@ -3,20 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Checkers</title>
+    <title>JumpDash</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="Standard">
-    <header>
-      <h1>Checkers</h1>
-    </header>
+    <h1>Jump Game</h1>
+    <br />
 
-    <main>
-      <!-- Container for the Board -->
-      <div id="divCheckerBoard"></div>
+    <!-- contains the game which contains the 2 moving objects -->
+    <div id="game">
+      <div id="dude"></div>
+      <div id="obstacle"></div>
+    </div>
+    <br />
 
-      <span id="spanSecret"></span>
-    </main>
+    <!-- button to start and jump -->
+    <div id="jumpStart">
+      <button id="jumpStart">Click to Jump!</button>
+    </div>
+    <br />
+
+    <!-- score increases per jump -->
+    <h2 id="score">0</h2>
 
     <div class="sidenav">
       <a href="Index.html">Home</a>
@@ -32,6 +40,7 @@
       <a href="Checkers.html">Checkers</a>
     </div>
 
-    <script src="Script.js"></script>
+    <!-- conflicted with Checkers game so script was moved to independant file -->
+    <script src="jumpScript.js"></script>
   </body>
 </html>
